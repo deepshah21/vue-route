@@ -53,23 +53,28 @@ Learn how to work with Vue Router Params and pass them as props to components ?
     we have to make props: true in the route object.
 
 How to create dynamic and nested routes ?
+
     for nesting routes dynamically there is childrens property used 
 
 Learn what the HTML5 History Mode is and how to enable it ?
+    
     without history mode, all route url will be navigate with # .
     but using history mode in route object # will be removed from the urls
 
 Creating go-back button ?
+    
     on click of go-back button method witll return with this.$route.go(-1);
     here -1 interger define 1 step back to history . 
 
 Learn how to create impressive route transitions ?
+    
     vue provide transition wrapper component.
     css transition class will be added and removed at appropriate timing.
     have to wrap <router-view> with <transition name="" mode="">
     we have to also give a css according to name .
 
 How to create a 404 page with the Vue Router ?
+    
     1.have to create component of Not found page
     2.give route path: "404",alias:"*" and add this component for page
     3.also we can use beforeEnter property of route to check .
@@ -78,6 +83,7 @@ How to scroll- behaviour of vue router
 
 
 Learn what navigation guards are and how to create an authentication middleware for your app ?
+    
     global navigation guard -> middle ware hooks which runs before and after route.
     
     meta property is used for authentication
