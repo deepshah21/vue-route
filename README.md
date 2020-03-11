@@ -36,6 +36,7 @@ Learn how to lazy load your routes?
 
 
 Learn how to work with Vue Router Params and pass them as props to components ?
+
     as route instance in injected into vue so we can use it through out the applications.
     {{ this.$route.params.paramName }} we can use within the app
 
