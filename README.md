@@ -117,7 +117,20 @@ Use of Nested Naming view in route ?
     https://jsfiddle.net/450abrzh/3/
     It will help to sub-menu kind of view and layouts.
     
-
+ route object and its method ?
+    
+ data fetching in routes ?
+ 
+    1. fetch before navigation hooks
+        beforeRouteUpdate (to, from, next) {
+            getPost(to.params.id, (err, post) => {}
+        
+        beforeRouteEnter (to, from, next) { }
+        
+    2. fetch after navigation hooks
+        component's created hook is used
+        getPost(this.$route.params.id, (err, post) => { } 
+        
 
 # vue-route
 
