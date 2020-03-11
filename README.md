@@ -21,6 +21,7 @@ How to create routes, including named routes ?
 
 
 Learn how to lazy load your routes? 
+
     app.js file is pack of all js file which loads once 
     web-pack's code splitting feature,we can split whole bundles into 
     small files call chunks or bundles.
