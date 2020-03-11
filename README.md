@@ -107,6 +107,17 @@ Learn what navigation guards are and how to create an authentication middleware 
     } else {
         next();
     }
+    
+---------------------------------------------------------------------------------------------------------------------------
+Advanced Routing concepts
+---------------------------------------------------------------------------------------------------------------------------
+
+Use of Nested Naming view in route ?
+
+    https://jsfiddle.net/450abrzh/3/
+    It will help to sub-menu kind of view and layouts.
+    
+
 
 # vue-route
 
