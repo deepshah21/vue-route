@@ -119,6 +119,16 @@ Use of Nested Naming view in route ?
     
  route object and its method ?
     
+    1.router.push(location, onComplete?, onAbort?)
+        this.$route.push();
+    2.router.replace(location, onComplete?, onAbort?)
+        Declarative	                            Programmatic
+        <router-link :to="..." replace>	        router.replace(...)
+    3.router.go(n)
+    
+    router.push, router.replace and router.go are counterparts of window.history.pushState, window.history.replaceState and     window.history.go, and they do imitate the window.history APIs.
+
+    
  data fetching in routes ?
  
     1. fetch before navigation hooks
